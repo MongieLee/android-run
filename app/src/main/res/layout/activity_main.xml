@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ceshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/fuckbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="异步更新" />
+
+
+    <Button
+        android:id="@+id/qidong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动服务" />
+
+
+    <Button
+        android:id="@+id/tingzhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击我启动服务" />
+
+
+    <Button
+        android:id="@+id/bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定" />
+
+
+    <Button
+        android:id="@+id/cancelBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消绑定" />
+
+</LinearLayout>
